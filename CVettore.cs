@@ -54,5 +54,20 @@ public class Vettore {
         
     }
 
+    //test togli elemento
+    public bool EliminaUltimo(){
+        if(vettore.Length==0)
+            return false;
+
+        if(idx==0)
+            if(vettore[idx]==0)
+                return false;
+        else
+            vettore[idx-1]=0;
+
+        return true;
+
+    }
+
 
 }
